@@ -61,7 +61,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants **/
-define( 'ROMW_PLUGIN_VERSION', '20150722.1' );
+define( 'ROMW_PLUGIN_VERSION', '20150729.1' );
 define( 'ROMW_PLUGIN_DEBUG', false );
 //
 define( 'ROMW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
