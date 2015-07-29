@@ -1,7 +1,11 @@
 ##Changelog
 
+#### 20150729.1
+* Update: plugin description and file header
+* Bumped version
+
 #### 20150722.1
-* Added: git
+* Added: first git commit
 
 #### 20150715.1
  * Changed: removed PHP4 class call.

@@ -1,54 +1,54 @@
 <?php
 /**
- * RO Meta Widget
- *
- * @package   RO Meta Widget
- * @author    Tim Russell <tim@timrussell.com>
- * @author    Raging One <tim@ragingone.com>
- * @copyright Copyright (c) 2014, Raging One, Inc.
- * @license   GPL-2.0+
- *
+ * @category            WordPress_Plugin
+ * @package             RO Meta Widget
+ * @author              Tim Russell <tim@timrussell.com>
+ * @author              Raging One <tim@ragingone.com>
+ * @copyright           Copyright (c) 2014, Raging One, Inc.
+ * @license             GPL-2.0+
  *
  * @wordpress-plugin
- * Plugin Name:     RO Meta Widget
- * Plugin URI:      http://www.ragingone.com/wordpress-plugins/
- * Description:     This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
- * Version:         20150722.1
- * Author:          Tim Russell
- * Author URI:      http://timrussell.com/
- * License:         GPL-2.0+
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:     rone-meta-widget
- * Domain Path:     /languages
+ * Plugin Name:         RO Meta Widget
+ * Plugin URI:          http://www.ragingone.com/wordpress-plugins/
+ * Description:         This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
+ * Version:             20150729.1
+ * Author:              Tim Russell
+ * Author URI:          http://timrussell.com/
+ * License:             GPL-2.0+
+ * License URI:         http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:         rone-meta-widget
+ * Domain Path:         /languages
  *
- * GitHub Plugin URI: https://github.com/tdavidrussell/rone-meta-widget
- * GitHub Branch:   master
+ * GitHub Plugin URI:   https://github.com/tdavidrussell/rone-meta-widget
+ * GitHub Branch:       master
  *
- * Requires WP:       3.9
- * Requires PHP:      5.3
+ * Requires WP:         3.9
+ * Requires PHP:        5.3
  *
  * Support URI:       http://ragingone.com/support
  * Documentation URI: http://ragingone.com/codex
  *
  * Tags: widget, login widget
+ *
+ * Released under the GPL license
+ * http://www.opensource.org/licenses/gpl-license.php
+ *
+ * This is an add-on for WordPress
+ * http://wordpress.org/
+ *
+ * **********************************************************************
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * **********************************************************************
  */
 
-/*  Copyright 2007-2014 Tim Russell (email: tim at ragingone.com)
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- */
 /*
  * TODO:
  *  1. add icons for the RSS Feed and Comments RSS
