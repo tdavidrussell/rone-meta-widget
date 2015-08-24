@@ -11,7 +11,7 @@
  * Plugin Name:         RO Meta Widget
  * Plugin URI:          http://www.ragingone.com/wordpress-plugins/
  * Description:         This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
- * Version:             20150729.1
+ * Version:             20150824.1
  * Author:              Tim Russell
  * Author URI:          http://timrussell.com/
  * License:             GPL-2.0+
