@@ -1,5 +1,9 @@
 ##Changelog
 
+#### 20150824.1
+* Changed: Replaced the readme.md file.
+* Changed: PHP5 class constructor check
+
 #### 20150729.1
 * Update: plugin description and file header
 * Bumped version

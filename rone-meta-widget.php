@@ -25,8 +25,8 @@
  * Requires WP:         3.9
  * Requires PHP:        5.3
  *
- * Support URI:       http://ragingone.com/support
- * Documentation URI: http://ragingone.com/codex
+ * Support URI:         http://ragingone.com/support
+ * Documentation URI:   http://ragingone.com/codex
  *
  * Tags: widget, login widget
  *
@@ -61,7 +61,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants **/
-define( 'ROMW_PLUGIN_VERSION', '20150729.1' );
+define( 'ROMW_PLUGIN_VERSION', '20150824.1' );
 define( 'ROMW_PLUGIN_DEBUG', false );
 //
 define( 'ROMW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
