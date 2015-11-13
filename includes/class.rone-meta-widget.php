@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Widgets
@@ -158,5 +159,3 @@ class rone_meta_widget extends WP_Widget {
 
 	}
 }// End of Class
-
-?>

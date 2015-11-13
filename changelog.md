@@ -1,5 +1,9 @@
 ##Changelog
 
+#### 20151113.1
+* Changed: Code cleaning
+* Bumped version
+
 #### 20150824.1
 * Changed: Replaced the readme.md file.
 * Changed: PHP5 class constructor check
