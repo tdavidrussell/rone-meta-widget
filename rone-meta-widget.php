@@ -3,15 +3,14 @@
  * @category            WordPress_Plugin
  * @package             RO Meta Widget
  * @author              Tim Russell <tim@timrussell.com>
- * @author              Raging One <tim@ragingone.com>
  * @copyright           Copyright (c) 2014, Raging One, Inc.
  * @license             GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:         RO Meta Widget
- * Plugin URI:          http://www.ragingone.com/wordpress-plugins/
+ * Plugin URI:          http://www.timrussell.com/wordpress-plugins/
  * Description:         This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
- * Version:             20151114.1
+ * Version:             20151230.1
  * Author:              Tim Russell
  * Author URI:          http://timrussell.com/
  * License:             GPL-2.0+
@@ -25,8 +24,8 @@
  * Requires WP:         3.9
  * Requires PHP:        5.3
  *
- * Support URI:         http://ragingone.com/support
- * Documentation URI:   http://ragingone.com/codex
+ * Support URI:         http://www.timrussell.com/wordpress-plugins/
+ * Documentation URI:   http://www.timrussell.com/wordpress-plugins/
  *
  * Tags: widget, login widget
  *
@@ -61,7 +60,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants **/
-define( 'ROMW_PLUGIN_VERSION', '20151114.1' );
+define( 'ROMW_PLUGIN_VERSION', '20151230.1' );
 define( 'ROMW_PLUGIN_DEBUG', false );
 //
 define( 'ROMW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash

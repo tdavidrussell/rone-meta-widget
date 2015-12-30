@@ -1,6 +1,10 @@
 ##Changelog
 
 #### 20151113.1
+* Changed: tested for WordPress 4.4
+
+
+#### 20151113.1
 * Changed: Code cleaning
 * Bumped version
 
