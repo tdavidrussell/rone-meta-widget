@@ -2,7 +2,8 @@
 /**
  * Widgets
  *
- * @package     Raging One
+ * @categry     WordPress_Plugin
+ * @package     RO_Meta_Widget
  * @subpackage  Widgets
  * @copyright   Copyright (c) 2015, Tim Russell
  * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
