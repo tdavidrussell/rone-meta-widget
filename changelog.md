@@ -1,5 +1,8 @@
 ##Changelog
 
+#### 20160101.1
+* Updated: PHPDoc and description
+
 #### 20151113.1
 * Changed: tested for WordPress 4.4
 

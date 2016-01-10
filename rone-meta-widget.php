@@ -1,16 +1,16 @@
 <?php
 /**
  * @category            WordPress_Plugin
- * @package             RO Meta Widget
+ * @package             RO_Meta_Widget
  * @author              Tim Russell <tim@timrussell.com>
- * @copyright           Copyright (c) 2014, Raging One, Inc.
+ * @copyright           Copyright (c) 2014-2015.
  * @license             GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:         RO Meta Widget
  * Plugin URI:          http://www.timrussell.com/wordpress-plugins/
  * Description:         This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
- * Version:             20151230.1
+ * Version:             20160110.1
  * Author:              Tim Russell
  * Author URI:          http://timrussell.com/
  * License:             GPL-2.0+
@@ -60,7 +60,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants **/
-define( 'ROMW_PLUGIN_VERSION', '20151230.1' );
+define( 'ROMW_PLUGIN_VERSION', '20160110.1' );
 define( 'ROMW_PLUGIN_DEBUG', false );
 //
 define( 'ROMW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
