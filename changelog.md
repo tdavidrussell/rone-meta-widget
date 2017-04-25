@@ -1,6 +1,9 @@
 ##Changelog
 
 #### 20160101.1
+* Change: updated plugin description
+
+#### 20160101.1
 * Updated: PHPDoc and description
 
 #### 20151113.1
