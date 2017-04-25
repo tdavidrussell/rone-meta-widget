@@ -66,20 +66,20 @@ class rone_meta_widget extends WP_Widget {
 		?>
 		<?php echo $before_widget; ?>
 		<?php echo $before_title . $title . $after_title; ?>
-		<ul>
+        <ul>
 			<?php if ( $instance['show_registration'] ) {
 				wp_register();
 			} ?>
 			<?php if ( $instance['show_loginout'] ) { ?>
-				<li><?php wp_loginout(); ?></li><?php } ?>
+                <li><?php wp_loginout(); ?></li><?php } ?>
 			<?php if ( $instance['show_rss'] ) { ?>
-				<li><a href="<?php bloginfo( 'rss2_url' ); ?>" title="<?php echo esc_attr( __( 'Syndicate this site using RSS 2.0' ) ); ?>"><?php _e( 'Entries <abbr title="Really Simple Syndication">RSS</abbr>' ); ?></a></li><?php } ?>
+                <li><a href="<?php bloginfo( 'rss2_url' ); ?>" title="<?php echo esc_attr( __( 'Syndicate this site using RSS 2.0' ) ); ?>"><?php _e( 'Entries <abbr title="Really Simple Syndication">RSS</abbr>' ); ?></a></li><?php } ?>
 			<?php if ( $instance['show_rssc'] ) { ?>
-				<li><a href="<?php bloginfo( 'comments_rss2_url' ); ?>" title="<?php echo esc_attr( __( 'The latest comments to all posts in RSS' ) ); ?>"><?php _e( 'Comments <abbr title="Really Simple Syndication">RSS</abbr>' ); ?></a></li><?php } ?>
+                <li><a href="<?php bloginfo( 'comments_rss2_url' ); ?>" title="<?php echo esc_attr( __( 'The latest comments to all posts in RSS' ) ); ?>"><?php _e( 'Comments <abbr title="Really Simple Syndication">RSS</abbr>' ); ?></a></li><?php } ?>
 			<?php if ( $instance['show_wplink'] ) { ?>
-				<li><a href="http://wordpress.org/" title="<?php echo esc_attr( __( 'Powered by WordPress, state-of-the-art semantic personal publishing platform.' ) ); ?>">WordPress.org</a></li><?php } ?>
+                <li><a href="http://wordpress.org/" title="<?php echo esc_attr( __( 'Powered by WordPress, state-of-the-art semantic personal publishing platform.' ) ); ?>">WordPress.org</a></li><?php } ?>
 			<?php wp_meta(); ?>
-		</ul>
+        </ul>
 		<?php echo $after_widget; ?>
 		<?php
 	}
@@ -125,36 +125,36 @@ class rone_meta_widget extends WP_Widget {
 		// Clean the Title var....
 		$title = esc_attr( $instance['title'] );
 		?>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?>
-				<input class="widefat" id="title" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>"/>
-			</label>
-		</p>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'show_registration' ); ?>">
-				<input id="<?php echo $this->get_field_id( 'show_registration' ); ?>" name="<?php echo $this->get_field_name( 'show_registration' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_registration'], true ); ?> /> Show "Register/Site Admin"
-			</label>
-		</p>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'show_loginout' ); ?>">
-				<input id="<?php echo $this->get_field_id( 'show_loginout' ); ?>" name="<?php echo $this->get_field_name( 'show_loginout' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_loginout'], true ); ?> /> Show "Log in/Log out"
-			</label>
-		</p>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'show_rss' ); ?>">
-				<input id="<?php echo $this->get_field_id( 'show_rss' ); ?>" name="<?php echo $this->get_field_name( 'show_rss' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_rss'], true ) ?> /> Show "Entries RSS"
-			</label>
-		</p>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'show_rssc' ); ?>">
-				<input id="<?php echo $this->get_field_id( 'show_rssc' ); ?>" name="<?php echo $this->get_field_name( 'show_rssc' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_rssc'], true ); ?> /> Show "Comments RSS"
-			</label>
-		</p>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'show_wplink' ); ?>">
-				<input id="<?php echo $this->get_field_id( 'show_wplink' ); ?>" name="<?php echo $this->get_field_name( 'show_wplink' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_wplink'], true ); ?> /> Show "WordPress.org"
-			</label>
-		</p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?>
+                <input class="widefat" id="title" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $instance['title']; ?>"/>
+            </label>
+        </p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'show_registration' ); ?>">
+                <input id="<?php echo $this->get_field_id( 'show_registration' ); ?>" name="<?php echo $this->get_field_name( 'show_registration' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_registration'], true ); ?> /> Show "Register/Site Admin"
+            </label>
+        </p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'show_loginout' ); ?>">
+                <input id="<?php echo $this->get_field_id( 'show_loginout' ); ?>" name="<?php echo $this->get_field_name( 'show_loginout' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_loginout'], true ); ?> /> Show "Log in/Log out"
+            </label>
+        </p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'show_rss' ); ?>">
+                <input id="<?php echo $this->get_field_id( 'show_rss' ); ?>" name="<?php echo $this->get_field_name( 'show_rss' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_rss'], true ) ?> /> Show "Entries RSS"
+            </label>
+        </p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'show_rssc' ); ?>">
+                <input id="<?php echo $this->get_field_id( 'show_rssc' ); ?>" name="<?php echo $this->get_field_name( 'show_rssc' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_rssc'], true ); ?> /> Show "Comments RSS"
+            </label>
+        </p>
+        <p>
+            <label for="<?php echo $this->get_field_id( 'show_wplink' ); ?>">
+                <input id="<?php echo $this->get_field_id( 'show_wplink' ); ?>" name="<?php echo $this->get_field_name( 'show_wplink' ); ?>" type="checkbox" value="1" <?php checked( $instance['show_wplink'], true ); ?> /> Show "WordPress.org"
+            </label>
+        </p>
 		<?php
 
 	}
