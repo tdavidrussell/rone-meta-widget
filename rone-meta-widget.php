@@ -3,16 +3,16 @@
  * @category            WordPress_Plugin
  * @package             RO_Meta_Widget
  * @author              Tim Russell <tim@timrussell.com>
- * @copyright           Copyright (c) 2014-2015.
+ * @copyright           Copyright (c) 2016-2017.
  * @license             GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:         RO Meta Widget
- * Plugin URI:          http://www.timrussell.com/wordpress-plugins/
+ * Plugin URI:          https://www.timrussell.com/wordpress/
  * Description:         This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
  * Version:             20170425.1
  * Author:              Tim Russell
- * Author URI:          http://timrussell.com/
+ * Author URI:          https://timrussell.com/
  * License:             GPL-2.0+
  * License URI:         http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:         rone-meta-widget
@@ -21,11 +21,11 @@
  * GitHub Plugin URI:   https://github.com/tdavidrussell/rone-meta-widget
  * GitHub Branch:       master
  *
- * Requires WP:         4.4
+ * Requires WP:         4.6
  * Requires PHP:        5.3
  *
- * Support URI:         http://www.timrussell.com/wordpress-plugins/
- * Documentation URI:   http://www.timrussell.com/wordpress-plugins/
+ * Support URI:         https://www.timrussell.com/wordpress/
+ * Documentation URI:   https://www.timrussell.com/wordpress/
  *
  * Tags: widget, login widget
  *
