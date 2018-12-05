@@ -2,15 +2,15 @@
 /**
  * @category            WordPress_Plugin
  * @package             RO_Meta_Widget
- * @author              Tim Russell <tim@timrussell.com>
- * @copyright           Copyright (c) 2016-2017.
+ * @author              Tim Russell <githubber@timrussell.com>
+ * @copyright           Copyright (c) 2017-2018.
  * @license             GPL-2.0+
  *
  * @wordpress-plugin
  * Plugin Name:         RO Meta Widget
- * Plugin URI:          https://www.timrussell.com/wordpress/
+ * Plugin URI:          https://gitlab.com/tdavidrussell/rone-meta-widget
  * Description:         This plugin adds a widget that's almost like the vanilla meta widget, but it lets you choose what items to show.
- * Version:             20170425.1
+ * Version:             20181205.1
  * Author:              Tim Russell
  * Author URI:          https://timrussell.com/
  * License:             GPL-2.0+
@@ -18,14 +18,14 @@
  * Text Domain:         rone-meta-widget
  * Domain Path:         /languages
  *
- * GitHub Plugin URI:   https://github.com/tdavidrussell/rone-meta-widget
- * GitHub Branch:       master
+ * GitLab Plugin URI:   https://gitlab.com/tdavidrussell/rone-meta-widget
+ * GitLab Branch:       master
  *
- * Requires WP:         4.6
- * Requires PHP:        5.3
+ * Requires WP:         4.8
+ * Requires PHP:        5.6
  *
- * Support URI:         https://www.timrussell.com/wordpress/
- * Documentation URI:   https://www.timrussell.com/wordpress/
+ * Support URI:         https://gitlab.com/tdavidrussell/rone-meta-widget
+ * Documentation URI:   https://gitlab.com/tdavidrussell/rone-meta-widget
  *
  * Tags: widget, login widget
  *
@@ -33,7 +33,7 @@
  * http://www.opensource.org/licenses/gpl-license.php
  *
  * This is an add-on for WordPress
- * http://wordpress.org/
+ * https://wordpress.org/
  *
  * **********************************************************************
  * This program is free software; you can redistribute it and/or modify
@@ -49,7 +49,7 @@
  */
 
 /*
- * TODO:
+ * @TODO:
  *  1. add icons for the RSS Feed and Comments RSS
  *  2. if plain user (not Admin/Contributor) change link name 
  *      to "User Profile", instead of "Admin".....
@@ -60,7 +60,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 } // Exit if accessed directly
 
 /** initial constants **/
-define( 'ROMW_PLUGIN_VERSION', '20170425.1' );
+define( 'ROMW_PLUGIN_VERSION', '20181205.1' );
 define( 'ROMW_PLUGIN_DEBUG', false );
 //
 define( 'ROMW_PLUGIN_URI', plugin_dir_url( __FILE__ ) ); //Does contain trailing slash
