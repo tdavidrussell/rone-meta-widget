@@ -1,6 +1,10 @@
 ##Changelog
 
 #### 20160101.1
+* Changed: repo location
+* Updated: description
+
+#### 20160101.1
 * Change: updated plugin description
 
 #### 20160101.1
@@ -8,7 +12,6 @@
 
 #### 20151113.1
 * Changed: tested for WordPress 4.4
-
 
 #### 20151113.1
 * Changed: Code cleaning

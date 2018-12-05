@@ -2,6 +2,7 @@
 .DS_Store
 .Spotlight-V100
 .Trashes
+._*
 *~
 .svn
 .svnignore
@@ -20,6 +21,10 @@ desktop.ini
 ## phpStorm
 /.idea
 .idea
+.idea/*
+*.iml
+*.ipr
+*.iws
 
 ## SublimeText
 *.sublime-workspace
